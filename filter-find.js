@@ -99,6 +99,6 @@ Output:
 
 export function listNamesOfAllFruits(arr) {
     const fruit = arr.filter(grocery => grocery.category === 'fruit');
-    const name = fruit.map(id => id.name);
+    const name = fruit.map(names => names.id);
     return name;
 }
