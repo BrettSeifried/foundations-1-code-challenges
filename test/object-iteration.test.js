@@ -12,7 +12,7 @@ const pet = {
     type: 'puppy',
 };
 
-skip('should return an object with screaming keys', (expect) => {
+test('should return an object with screaming keys', (expect) => {
     //Arrange
     // Set up your arguments and expectations
     const expected = {
@@ -32,7 +32,7 @@ skip('should return an object with screaming keys', (expect) => {
 
 
 
-skip('should make a string from the keys', (expect) => {
+test('should make a string from the keys', (expect) => {
     //Arrange
     // Set up your arguments and expectations    
     //Act 

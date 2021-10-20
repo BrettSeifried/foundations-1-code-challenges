@@ -52,10 +52,12 @@ Output:
 ]*/
 
 export function makeShoutingArray(arr) {
-    const shout = [];
-    arr.map(e => {
-        shout.push({ name: `${e.name.toUpperCase()}`, type: `${e.type}` });
-    });
+    // const shout = [];
+    // arr.map(e => {
+    //     shout.push({ name: `${e.name.toUpperCase()}`, type: `${e.type}` });
+    // });
+    // return shout;
+    const shout = arr.map(pet => ({ name: pet.name.toUpperCase(), type: pet.type }));
     return shout;
 }
 
